@@ -558,6 +558,16 @@
                 <artifactId>org.wso2.carbon.apimgt.ballerina.publisher</artifactId>
                 <version>${carbon.apimgt.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.wso2.orbit.io.swagger</groupId>
+                <artifactId>swagger-codegen</artifactId>
+                <version>${swagger.codegen.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.samskivert</groupId>
+                <artifactId>jmustache</artifactId>
+                <version>${samskivert.mustache.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -929,5 +939,8 @@
         <xmlschema.version>1.4.7.wso2v2</xmlschema.version>
 
         <ballerina.version>0.89</ballerina.version>
+
+        <swagger.codegen.version>2.2.3.wso2v4</swagger.codegen.version>
+        <samskivert.mustache.version>1.13</samskivert.mustache.version>
     </properties>
 </project>
